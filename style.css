@@ -1,0 +1,279 @@
+* {
+  font-family: "Azeret Mono";
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+nav h3 {
+  color: #0d1321;
+  font-size: 28px;
+}
+nav button {
+  border: 2px solid #0d1321;
+  background-color: white;
+  color: #0d1321;
+  padding: 10px 27px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.banner {
+  background-image: url(./photos/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner_content {
+  padding: 25px 0px;
+  text-align: center;
+}
+
+.banner_content h1 {
+  padding-top: 5px;
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 48px;
+}
+.banner_content p {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  line-height: 26px;
+  padding: 20px 0px;
+  text-transform: capitalize;
+}
+.banner_content button {
+  border: none;
+  background-color: #0d1321;
+  color: white;
+  padding: 10px 27px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+#about {
+  padding: 97px 80px;
+  background-color: #e7ecff;
+}
+.about_items {
+  text-align: center;
+}
+.about_items h2 {
+  font-weight: 800;
+  font-size: 32px;
+}
+.about_items p {
+  text-align: center;
+  font-weight: 400;
+  color: #0d1321;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-bottom: 48px;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.about_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 48px;
+  box-shadow: 2px 2px #6e6e6e;
+  border-radius: 16px;
+}
+.card_text {
+  padding-right: 60px;
+}
+.card_text h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #0d1321;
+}
+.card_text p {
+  font-weight: 400;
+  color: #0d1321;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card_text button {
+  font-weight: 500;
+  color: #0d1321;
+  font-size: 16px;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #0d1321;
+}
+
+#video,
+#skill,
+#target {
+  padding: 32px 0px;
+}
+.video_content{
+text-align: center;
+padding: 20px;
+}
+.video_items,
+.skill_items,
+.target_items {
+  text-align: center;
+}
+.video_items h2,
+.skill_items h2,
+.target_items h2 {
+  font-weight: 800;
+  font-size: 32px;
+}
+.video_items p,
+.skill_items p,
+.target_items p {
+  text-align: center;
+  font-weight: 400;
+  color: #0d1321;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-bottom: 48px;
+}
+.skill_card_contener {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  margin: 0px 30px;
+}
+.skill_cards {
+  background-color: aqua;
+  padding: 40px;
+  border-radius: 5px;
+}
+.skill_cards h4 {
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #0d1321;
+}
+.skill_cards p {
+  font-weight: 400;
+  color: #0d1321;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 10px 0px;
+}
+.skill_cards a {
+  font-weight: 600;
+  color: #0d1321;
+  font-size: 16px;
+}
+
+.target_card_contener {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.target_cards {
+  background-color: #f7f1ef;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  border-radius: 16px;
+}
+.targer_card_text h4 {
+  font-weight: 700;
+  color: #0d1321;
+  font-size: 24px;
+  line-height: 36px;
+}
+.targer_card_text p {
+  font-weight: 400;
+  color: #0d1321;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.target_cards img {
+  width: 150px;
+}
+.md {
+  height: 90px;
+  width: 150px;
+}
+
+.targer_card_text a {
+  font-weight: 600;
+  color: #0d1321;
+  font-size: 16px;
+}
+#support {
+  padding: 32px 0px;
+  text-align: center;
+  background-image: url(photos/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.support_text h2 {
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 32px;
+  color: #a5c0e2;
+}
+
+.support_text p {
+  font-weight: 400;
+  color: #ffff;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.footers {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px;
+}
+.texts {
+  padding: 10px;
+  width: 30%;
+
+}
+.buttons{
+  border: 2px solid #0d1321;
+  background-color: white;
+  color: #0d1321;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  
+}
